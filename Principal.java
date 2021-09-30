@@ -3,7 +3,7 @@ public class Principal{
     public static void main(String[] args){
 
         Funcionario f=new Funcionario();
-        f.setNome("Gabi");
+        f.setNome("Gabriela");
         f.setCpf("493.305.468.11");
         f.setSalario(8500);
         f.setDepartamento("Administrativo");
@@ -12,5 +12,6 @@ public class Principal{
         System.out.println("Cujo CPF corresponde ao número "+f.getCpf());
         System.out.println("Seu salário é de R$ "+f.getSalario());
         System.out.println("A mesma trabalha no setor "+f.getDepartamento()+" da empresa");
+        System.out.println(f.bonificacao());
     }
 }
